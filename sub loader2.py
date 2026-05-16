@@ -35,7 +35,7 @@ class SubLoader(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Sub Loader v1.0 (UE4SS")
+        self.title("Sub Loader v1.0 (UE4SS)")
         self.geometry("1100x750")
 
         self.config = self.load_config()
